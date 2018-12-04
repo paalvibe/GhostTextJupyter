@@ -1,11 +1,11 @@
 {
     "manifest_version": 2,
-    "name": "GhostText",
-    "short_name": "GhostText",
-    "description": "Use your text editor to write in your browser. Everything you type in the editor will be instantly updated in the browser.",
+    "name": "JupyterBridge",
+    "short_name": "JupyterBridge",
+    "description": "Fork of GhostText focused on integrating emacs with jupyter web notebooks.",
     "version": "0.0.0",
     "minimum_chrome_version": "49",
-    "author": "Guido Krömer, Federico Brigante",
+    "author": "Pål de Vibe, Linnéa Claesson (forked from Guido Krömer, Federico Brigante)",
     "icons": {
         "16": "images/icon_19.png",
         "19": "images/icon_19.png",
@@ -18,7 +18,7 @@
     ],
     "applications": {
         "gecko": {
-            "id": "ghosttext@bfred.it",
+            "id": "paal@menneskemaskin.no",
             "strict_min_version": "45.0"
         }
     },
@@ -27,7 +27,7 @@
         "page": "options.html"
     },
     "browser_action": {
-        "default_title": "GhostText",
+        "default_title": "JupyterBridge",
         "default_icon":  {
             "19": "images/icon_19.png",
             "38": "images/icon_48.png"
@@ -35,7 +35,7 @@
     },
     "commands": {
         "toggle": {
-            "description": "Toggle GhostText",
+            "description": "Toggle JupyterBridge",
             "suggested_key": {
                 "default": "Ctrl+Shift+K",
                 "linux": "Ctrl+Shift+H"
